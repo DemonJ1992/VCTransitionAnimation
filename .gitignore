@@ -1,0 +1,10 @@
+_Store
+./.DS_Store
+build/
+*/build/*
+.pbxuser
+xcuserdata
+profile
+*.hmap
+*/xuserdata/*
+*.xccheckout

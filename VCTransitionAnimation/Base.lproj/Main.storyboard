@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gY6-Mq-tsv">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="F81-8s-5Nx">
+            <objects>
+                <tabBarController id="gY6-Mq-tsv" customClass="TabbarController" customModule="VCTransitionAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="h9b-5e-pNd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <outlet property="delegate" destination="tCP-g6-XNA" id="ncE-nG-yYD"/>
+                        <segue destination="fAR-Gg-uIS" kind="relationship" relationship="viewControllers" id="Xjw-LR-R97"/>
+                        <segue destination="an6-JX-LW1" kind="relationship" relationship="viewControllers" id="394-Kv-7tP"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GiG-WT-5eC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="tCP-g6-XNA" customClass="TabBarControllerDelegate" customModule="VCTransitionAnimation" customModuleProvider="target">
+                    <connections>
+                        <outlet property="tabBarController" destination="gY6-Mq-tsv" id="8Sc-LB-cqz"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="-388" y="-114"/>
+        </scene>
+        <!--VC0-->
+        <scene sceneID="Ugk-0P-3IE">
+            <objects>
+                <navigationController id="fAR-Gg-uIS" customClass="NavigationController" customModule="VCTransitionAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="VC0" image="choiceness-gray" selectedImage="choiceness-light" id="ATg-Uy-btP"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Etj-Im-DNh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="RPc-lO-ZFE" kind="relationship" relationship="rootViewController" id="QuT-wt-nC2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tdZ-Pj-ILQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="-114"/>
+        </scene>
+        <!--VC0-->
+        <scene sceneID="6k5-RB-eKN">
+            <objects>
+                <viewController id="RPc-lO-ZFE" customClass="ViewController0" customModule="VCTransitionAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FYs-e9-zzp"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sgk-eh-Zcn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="F4e-o2-qqL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWP-DO-e1c">
+                                <rect key="frame" x="220" y="285" width="160" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HUH-Hu-Vob"/>
+                                    <constraint firstAttribute="width" constant="160" id="uoH-7v-ErR"/>
+                                </constraints>
+                                <state key="normal" title="Present"/>
+                                <connections>
+                                    <segue destination="6Lw-B7-5NJ" kind="presentation" identifier="presentSegue" id="HPg-9u-oA9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40707236842105265" green="0.80263157894736847" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xWP-DO-e1c" firstAttribute="centerX" secondItem="F4e-o2-qqL" secondAttribute="centerX" id="NWN-aK-MMd"/>
+                            <constraint firstItem="xWP-DO-e1c" firstAttribute="centerY" secondItem="F4e-o2-qqL" secondAttribute="centerY" id="jxN-JE-NZk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="VC0" id="JTF-sd-YM9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VQ5-lj-LPE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1064" y="-114"/>
+        </scene>
+        <!--Present View Controller-->
+        <scene sceneID="Ac5-Cv-4at">
+            <objects>
+                <viewController modalPresentationStyle="overCurrentContext" id="6Lw-B7-5NJ" customClass="PresentViewController" customModule="VCTransitionAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KA2-IG-zoA"/>
+                        <viewControllerLayoutGuide type="bottom" id="kwY-1z-T6H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v8Y-nI-EeU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bcq-2P-mg9">
+                                <rect key="frame" x="220" y="285" width="160" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="1rp-ss-lQu"/>
+                                    <constraint firstAttribute="height" constant="30" id="aTJ-16-dGZ"/>
+                                </constraints>
+                                <state key="normal" title="Dismiss"/>
+                                <connections>
+                                    <action selector="dismissAction:" destination="6Lw-B7-5NJ" eventType="touchUpInside" id="4wk-Zd-6HI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.82840557275541793" blue="0.55921052631578949" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bcq-2P-mg9" firstAttribute="centerX" secondItem="v8Y-nI-EeU" secondAttribute="centerX" id="qgx-zZ-z8N"/>
+                            <constraint firstItem="Bcq-2P-mg9" firstAttribute="centerY" secondItem="v8Y-nI-EeU" secondAttribute="centerY" id="wPG-nA-gj8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fgc-dv-ZMJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="nfU-y4-vVN" customClass="TransitioningDelegate" customModule="VCTransitionAnimation" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="1765" y="-114"/>
+        </scene>
+        <!--VC1-->
+        <scene sceneID="mNI-Hf-YqU">
+            <objects>
+                <viewController id="XUo-Lc-dFi" customClass="ViewController1" customModule="VCTransitionAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tHJ-XM-B5i"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xb6-9J-NRk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ben-e2-yvb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAl-ow-pSr">
+                                <rect key="frame" x="220" y="285" width="160" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="kwj-ou-YSV"/>
+                                    <constraint firstAttribute="height" constant="30" id="llX-ld-Rqq"/>
+                                </constraints>
+                                <state key="normal" title="Push"/>
+                                <connections>
+                                    <segue destination="NeO-di-FEw" kind="show" identifier="pushSegue" id="tfx-sT-e7O"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.53903680098684215" green="0.90131578947368418" blue="0.83141447368421051" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jAl-ow-pSr" firstAttribute="centerX" secondItem="ben-e2-yvb" secondAttribute="centerX" id="vCD-OU-uuz"/>
+                            <constraint firstItem="jAl-ow-pSr" firstAttribute="centerY" secondItem="ben-e2-yvb" secondAttribute="centerY" id="vgH-w5-j8P"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="VC1" id="7CH-bk-jWA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d1j-zn-5Ka" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1064" y="642"/>
+        </scene>
+        <!--PushVC-->
+        <scene sceneID="zTg-DI-tzP">
+            <objects>
+                <viewController title="PushVC" id="NeO-di-FEw" customClass="PushViewController" customModule="VCTransitionAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HLA-FM-JON"/>
+                        <viewControllerLayoutGuide type="bottom" id="RWI-gh-2Ut"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gxb-J7-D5Y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMJ-NT-ftZ">
+                                <rect key="frame" x="220" y="285" width="160" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="2Mj-dB-XVE"/>
+                                    <constraint firstAttribute="height" constant="30" id="Fqv-rk-5gY"/>
+                                </constraints>
+                                <state key="normal" title="Pop"/>
+                                <connections>
+                                    <action selector="popButtonAction:" destination="NeO-di-FEw" eventType="touchUpInside" id="BZh-T3-8E0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.68991228070175448" blue="0.76431435032894501" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="eMJ-NT-ftZ" firstAttribute="centerY" secondItem="gxb-J7-D5Y" secondAttribute="centerY" id="537-yd-hf8"/>
+                            <constraint firstItem="eMJ-NT-ftZ" firstAttribute="centerX" secondItem="gxb-J7-D5Y" secondAttribute="centerX" id="Fjw-zI-91b"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KJj-ia-sQw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1765" y="642"/>
+        </scene>
+        <!--VC1-->
+        <scene sceneID="5UT-MR-dp8">
+            <objects>
+                <navigationController id="an6-JX-LW1" customClass="NavigationController" customModule="VCTransitionAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="VC1" image="wealth-gray" selectedImage="wealth-light" id="4uv-Q3-8kP"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MNq-vb-m7G">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XUo-Lc-dFi" kind="relationship" relationship="rootViewController" id="nvp-y2-2G4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D9D-f8-Tlw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="642"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="choiceness-gray" width="24" height="24"/>
+        <image name="choiceness-light" width="24" height="24"/>
+        <image name="wealth-gray" width="24" height="24"/>
+        <image name="wealth-light" width="24" height="24"/>
+    </resources>
+</document>
