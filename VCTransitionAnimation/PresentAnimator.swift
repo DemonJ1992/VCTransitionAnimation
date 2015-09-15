@@ -48,9 +48,9 @@ class PresentAnimator: NSObject, UIViewControllerAnimatedTransitioning {
         scaleAnimation.toValue = NSValue(CGPoint: CGPointMake(1.0, 1.0))
         
         let opacityAnimation = POPBasicAnimation(propertyNamed: kPOPLayerOpacity)
-        opacityAnimation.toValue = NSNumber(float: 0.6)
+        opacityAnimation.toValue = NSNumber(float: 0.3)
         opacityAnimation.completionBlock = { (POPAnimation animation, Bool finish) -> () in
-            dimmingView.layer.opacity = 0.6
+            dimmingView.layer.opacity = 0.3
         }
         
         toView.layer.pop_addAnimation(positionAnimation, forKey: "positionAnimationKey")
