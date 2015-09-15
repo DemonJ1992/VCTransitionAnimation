@@ -12,6 +12,7 @@ class NavigationDelegate: NSObject, UINavigationControllerDelegate {
     
     var interaction : UIPercentDrivenInteractiveTransition?
     var navigationController : UINavigationController
+    var pushAnimationFinished : Bool = false
     
     init(navigationController:UINavigationController) {
         self.navigationController = navigationController
@@ -24,7 +25,10 @@ class NavigationDelegate: NSObject, UINavigationControllerDelegate {
         if UINavigationControllerOperation.Pop == operation {
             return PopAnimator()
         } else if UINavigationControllerOperation.Push == operation {
-            return PushAnimator()
+            self.pushAnimationFinished = false
+            return PushAnimator(animationFinishCallBack: { () -> () in
+                self.pushAnimationFinished = true
+            })
         } else {
             return nil
         }
@@ -44,7 +48,7 @@ class NavigationDelegate: NSObject, UINavigationControllerDelegate {
         }
         switch gesture.state {
         case UIGestureRecognizerState.Began:
-            if (location.x < CGRectGetMidX(view.bounds) && self.navigationController.viewControllers.count > 1) {
+            if (location.x < CGRectGetMidX(view.bounds) && self.navigationController.viewControllers.count > 1 && self.pushAnimationFinished) {
                 self.interaction = UIPercentDrivenInteractiveTransition()
                 self.navigationController.popViewControllerAnimated(true)
             }

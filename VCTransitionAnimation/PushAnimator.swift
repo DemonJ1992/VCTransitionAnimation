@@ -9,6 +9,13 @@
 import UIKit
 
 class PushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
+    
+    let animationFinishCallBack : () -> ()
+    
+    init(animationFinishCallBack : () -> ()) {
+        self.animationFinishCallBack = animationFinishCallBack
+    }
+    
     func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
         return 0.5
     }
@@ -43,6 +50,8 @@ class PushAnimator: NSObject, UIViewControllerAnimatedTransitioning {
     }
     
     func animationEnded(transitionCompleted: Bool) {
-        
+        if transitionCompleted {
+            self.animationFinishCallBack()
+        }
     }
 }
