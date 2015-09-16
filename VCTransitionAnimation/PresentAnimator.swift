@@ -20,10 +20,12 @@ class PresentAnimator: NSObject, UIViewControllerAnimatedTransitioning {
         fromView.userInteractionEnabled = false
         
         // 设置遮罩
+        /*
         let dimmingView = UIView(frame: fromView.bounds)
         dimmingView.backgroundColor = UIColor.blackColor()
         dimmingView.layer.opacity = 0.0
         transitionContext.containerView()?.addSubview(dimmingView)
+        */
         // 设置toview 属性
         let toView = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)!.view
         toView.frame = CGRectMake(0.0,
@@ -47,15 +49,15 @@ class PresentAnimator: NSObject, UIViewControllerAnimatedTransitioning {
         scaleAnimation.fromValue = NSValue(CGPoint: CGPointMake(1.2, 1.4))
         scaleAnimation.toValue = NSValue(CGPoint: CGPointMake(1.0, 1.0))
         
-        let opacityAnimation = POPBasicAnimation(propertyNamed: kPOPLayerOpacity)
-        opacityAnimation.toValue = NSNumber(float: 0.3)
-        opacityAnimation.completionBlock = { (POPAnimation animation, Bool finish) -> () in
-            dimmingView.layer.opacity = 0.3
-        }
+//        let opacityAnimation = POPBasicAnimation(propertyNamed: kPOPLayerOpacity)
+//        opacityAnimation.toValue = NSNumber(float: 0.2)
+//        opacityAnimation.completionBlock = { (POPAnimation animation, Bool finish) -> () in
+//            dimmingView.layer.opacity = 0.2
+//        }
         
         toView.layer.pop_addAnimation(positionAnimation, forKey: "positionAnimationKey")
         toView.layer.pop_addAnimation(scaleAnimation, forKey: "scaleAnimationKey")
-        dimmingView.layer.pop_addAnimation(opacityAnimation, forKey: "opacityAnimationKey")
+        //dimmingView.layer.pop_addAnimation(opacityAnimation, forKey: "opacityAnimationKey")
     }
     
     func animationEnded(transitionCompleted: Bool) {

@@ -148,8 +148,8 @@
 		770FE73D1BA275F900CBB2E2 /* VCTransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				770FE73E1BA275F900CBB2E2 /* AppDelegate.swift */,
 				770FE7401BA275F900CBB2E2 /* ViewController.swift */,
+				770FE73E1BA275F900CBB2E2 /* AppDelegate.swift */,
 				770FE76E1BA2767D00CBB2E2 /* TabbarController.swift */,
 				770FE7701BA2776B00CBB2E2 /* NavigationController.swift */,
 				770FE7721BA2778B00CBB2E2 /* ViewController0.swift */,
@@ -260,6 +260,7 @@
 				TargetAttributes = {
 					770FE73A1BA275F900CBB2E2 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CN23Q3K84U;
 					};
 					770FE74E1BA275F900CBB2E2 = {
 						CreatedOnToolsVersion = 7.0;
@@ -512,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VCTransitionAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -528,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VCTransitionAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

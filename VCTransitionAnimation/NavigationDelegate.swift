@@ -46,6 +46,7 @@ class NavigationDelegate: NSObject, UINavigationControllerDelegate {
         if fraction < 0 {
             fraction = 0
         }
+        print("fraction is \(fraction)")
         switch gesture.state {
         case UIGestureRecognizerState.Began:
             if (location.x < CGRectGetMidX(view.bounds) && self.navigationController.viewControllers.count > 1 && self.pushAnimationFinished) {
@@ -57,7 +58,7 @@ class NavigationDelegate: NSObject, UINavigationControllerDelegate {
             self.interaction?.updateInteractiveTransition(fraction)
             break
         case UIGestureRecognizerState.Cancelled, UIGestureRecognizerState.Ended:
-            if (gesture.velocityInView(view).x > 0 && UIGestureRecognizerState.Cancelled != gesture.state) {
+            if (gesture.velocityInView(view).x > 0.0 && UIGestureRecognizerState.Cancelled != gesture.state) {
                 self.interaction?.finishInteractiveTransition()
             } else {
                 self.interaction?.cancelInteractiveTransition()

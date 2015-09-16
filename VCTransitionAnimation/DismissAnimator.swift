@@ -29,6 +29,7 @@ class DismissAnimator: NSObject, UIViewControllerAnimatedTransitioning {
             }
             }];
          */
+        /*
         var dimmingView = UIView()
         let subviews = NSArray(array: (transitionContext.containerView()?.subviews)!)
         for view in subviews {
@@ -37,8 +38,10 @@ class DismissAnimator: NSObject, UIViewControllerAnimatedTransitioning {
                 break
             }
         }
+
         let opacityAnimation = POPBasicAnimation(propertyNamed: kPOPLayerOpacity)
         opacityAnimation.toValue = NSNumber(float: 0.0)
+        */
         
         let fromView = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)!.view
         let positionAnimation = POPBasicAnimation(propertyNamed: kPOPLayerPositionY)
@@ -47,7 +50,7 @@ class DismissAnimator: NSObject, UIViewControllerAnimatedTransitioning {
             transitionContext.completeTransition(!transitionContext.transitionWasCancelled())
         }
         fromView.layer.pop_addAnimation(positionAnimation, forKey: "positionAnimationKey")
-        dimmingView.layer.pop_addAnimation(opacityAnimation, forKey: "opacityAnimationKey")
+        //dimmingView.layer.pop_addAnimation(opacityAnimation, forKey: "opacityAnimationKey")
     }
     
     func animationEnded(transitionCompleted: Bool) {
