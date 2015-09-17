@@ -15,9 +15,11 @@ class CustomSegue: UIStoryboardSegue {
         let window = UIApplication.sharedApplication().keyWindow
         window?.addSubview(toView)
         toView.frame = CGRectMake(0.0, CGRectGetMaxY(fromView.bounds), CGRectGetWidth(fromView.bounds), CGRectGetHeight(fromView.bounds))
+        toView.alpha = 0.5
         UIView.animateWithDuration(0.6, animations: { () -> Void in
             fromView.transform = CGAffineTransformScale(fromView.transform, 0.5, 0.5)
             toView.frame = CGRectMake(0.0, 0.0, CGRectGetWidth(fromView.bounds), CGRectGetHeight(fromView.bounds))
+            toView.alpha = 1.0
             }) { (Bool finish) -> Void in
                 fromView.transform = CGAffineTransformIdentity
                 self.sourceViewController.presentViewController(self.destinationViewController, animated: false, completion: nil)
