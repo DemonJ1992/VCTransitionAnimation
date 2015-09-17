@@ -42,7 +42,7 @@ class NavigationDelegate: NSObject, UINavigationControllerDelegate {
         let view = self.navigationController.view
         let location = gesture.locationInView(view)
         let translation = gesture.translationInView(view)
-        var fraction = translation.x / CGRectGetWidth(view.bounds)
+        var fraction = translation.x / CGRectGetWidth(view.frame)
         if fraction < 0 {
             fraction = 0
         }
