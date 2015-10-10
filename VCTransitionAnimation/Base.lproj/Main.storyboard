@@ -45,7 +45,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tdZ-Pj-ILQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="-114"/>
+            <point key="canvasLocation" x="347" y="-866"/>
         </scene>
         <!--VC0-->
         <scene sceneID="6k5-RB-eKN">
@@ -67,7 +67,7 @@
                                 </constraints>
                                 <state key="normal" title="Present"/>
                                 <connections>
-                                    <segue destination="6Lw-B7-5NJ" kind="presentation" identifier="presentSegue" id="HPg-9u-oA9"/>
+                                    <segue destination="6Lw-B7-5NJ" kind="presentation" identifier="presentSegue" modalPresentationStyle="overCurrentContext" modalTransitionStyle="coverVertical" id="HPg-9u-oA9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -81,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VQ5-lj-LPE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1064" y="-114"/>
+            <point key="canvasLocation" x="1055" y="-866"/>
         </scene>
         <!--Present View Controller-->
         <scene sceneID="Ac5-Cv-4at">
@@ -115,9 +115,9 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fgc-dv-ZMJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="nfU-y4-vVN" customClass="TransitioningDelegate" customModule="VCTransitionAnimation" customModuleProvider="target"/>
+                <customObject id="nfU-y4-vVN" customClass="PresentDelegate" customModule="VCTransitionAnimation" customModuleProvider="target"/>
             </objects>
-            <point key="canvasLocation" x="1765" y="-114"/>
+            <point key="canvasLocation" x="1756" y="-866"/>
         </scene>
         <!--VC2-->
         <scene sceneID="e5F-Lc-qJN">
@@ -134,7 +134,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gpR-3p-OgI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="1372"/>
+            <point key="canvasLocation" x="347" y="636"/>
         </scene>
         <!--VC2-->
         <scene sceneID="XAV-vD-5gv">
@@ -170,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m53-wf-poS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1064" y="1372"/>
+            <point key="canvasLocation" x="1055" y="636"/>
         </scene>
         <!--CustomSegueVC-->
         <scene sceneID="1fb-vn-WJ8">
@@ -218,7 +218,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1765" y="1372"/>
+            <point key="canvasLocation" x="1756" y="636"/>
         </scene>
         <!--VC1-->
         <scene sceneID="mNI-Hf-YqU">
@@ -254,7 +254,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d1j-zn-5Ka" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1064" y="642"/>
+            <point key="canvasLocation" x="1055" y="-114"/>
         </scene>
         <!--PushVC-->
         <scene sceneID="zTg-DI-tzP">
@@ -303,7 +303,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KJj-ia-sQw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1765" y="642"/>
+            <point key="canvasLocation" x="1756" y="-114"/>
         </scene>
         <!--VC1-->
         <scene sceneID="5UT-MR-dp8">
@@ -320,7 +320,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9D-f8-Tlw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="642"/>
+            <point key="canvasLocation" x="347" y="-114"/>
         </scene>
     </scenes>
     <resources>
@@ -332,7 +332,7 @@
         <image name="wealth-light" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1Yq-Jh-2AX"/>
         <segue reference="tfx-sT-e7O"/>
+        <segue reference="uvz-MQ-uaF"/>
     </inferredMetricsTieBreakers>
 </document>

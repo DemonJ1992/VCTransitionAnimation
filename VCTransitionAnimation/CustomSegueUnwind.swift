@@ -18,7 +18,7 @@ class CustomSegueUnwind: UIStoryboardSegue {
         toView.transform = CGAffineTransformMakeScale(0.5, 0.5)
         UIView.animateWithDuration(0.6, animations: { () -> Void in
             fromView.frame = CGRectMake(0.0, -CGRectGetMaxY(fromView.bounds), CGRectGetWidth(fromView.bounds), CGRectGetHeight(fromView.bounds))
-            fromView.alpha = 0.0
+            fromView.alpha = 0.5
             toView.transform = CGAffineTransformIdentity
             }) { (Bool finish) -> Void in
                 self.sourceViewController.dismissViewControllerAnimated(false, completion: nil)

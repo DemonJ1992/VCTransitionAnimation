@@ -37,7 +37,7 @@ class CustomSegueViewController: UIViewController {
     }
     
     @IBAction func dismissButtonAction(sender: UIButton) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+        self.performSegueWithIdentifier("customSegueUnwind", sender: self)
     }
     
 }
