@@ -13,24 +13,24 @@
 		770FE7491BA275F900CBB2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770FE7471BA275F900CBB2E2 /* LaunchScreen.storyboard */; };
 		770FE7541BA275F900CBB2E2 /* VCTransitionAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770FE7531BA275F900CBB2E2 /* VCTransitionAnimationTests.swift */; };
 		770FE75F1BA275F900CBB2E2 /* VCTransitionAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770FE75E1BA275F900CBB2E2 /* VCTransitionAnimationUITests.swift */; };
-		770FE76F1BA2767D00CBB2E2 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770FE76E1BA2767D00CBB2E2 /* TabbarController.swift */; };
-		770FE7711BA2776B00CBB2E2 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770FE7701BA2776B00CBB2E2 /* NavigationController.swift */; };
-		770FE7731BA2778B00CBB2E2 /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770FE7721BA2778B00CBB2E2 /* ViewController0.swift */; };
-		770FE7751BA2779500CBB2E2 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770FE7741BA2779500CBB2E2 /* ViewController1.swift */; };
-		770FE7791BA277CF00CBB2E2 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770FE7781BA277CF00CBB2E2 /* PresentViewController.swift */; };
-		770FE77B1BA277D800CBB2E2 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770FE77A1BA277D800CBB2E2 /* PushViewController.swift */; };
-		772884091BA959C9007FC986 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772884081BA959C9007FC986 /* ViewController2.swift */; };
-		7728840B1BA95B48007FC986 /* CustomSegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7728840A1BA95B48007FC986 /* CustomSegueViewController.swift */; };
-		7728840D1BA95BE0007FC986 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7728840C1BA95BE0007FC986 /* CustomSegue.swift */; };
-		7728840F1BA95C37007FC986 /* CustomSegueUnwind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7728840E1BA95C37007FC986 /* CustomSegueUnwind.swift */; };
-		773F722C1BA7CADC00BCD5F1 /* TabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773F722B1BA7CADC00BCD5F1 /* TabBarControllerDelegate.swift */; };
 		7749C41C1BC61BCD0012B9E1 /* PresentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749C41B1BC61BCD0012B9E1 /* PresentDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		775832891BA6650B0016E3E0 /* TabAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775832881BA6650B0016E3E0 /* TabAnimator.swift */; };
-		7758328D1BA6A1160016E3E0 /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7758328C1BA6A1160016E3E0 /* NavigationDelegate.swift */; };
-		77FC9FF91BA2BE3100CC266F /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FC9FF81BA2BE3100CC266F /* PopAnimator.swift */; };
-		77FC9FFB1BA2BE4300CC266F /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FC9FFA1BA2BE4300CC266F /* PresentAnimator.swift */; };
-		77FC9FFD1BA2BE5400CC266F /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FC9FFC1BA2BE5400CC266F /* DismissAnimator.swift */; };
-		77FC9FFF1BA2C19B00CC266F /* PushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FC9FFE1BA2C19B00CC266F /* PushAnimator.swift */; };
+		77B7FCAB1BD0D8A50021BFD1 /* ViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCAA1BD0D8A50021BFD1 /* ViewController0.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCAD1BD0D8BB0021BFD1 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCAC1BD0D8BB0021BFD1 /* ViewController1.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCAF1BD0D8C60021BFD1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCAE1BD0D8C60021BFD1 /* ViewController2.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCB31BD0D8D10021BFD1 /* CustomSegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCB01BD0D8D10021BFD1 /* CustomSegueViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCB41BD0D8D10021BFD1 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCB11BD0D8D10021BFD1 /* PresentViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCB51BD0D8D10021BFD1 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCB21BD0D8D10021BFD1 /* PushViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCB81BD0D8EC0021BFD1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCB61BD0D8EC0021BFD1 /* NavigationController.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCB91BD0D8EC0021BFD1 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCB71BD0D8EC0021BFD1 /* TabbarController.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCC11BD0D9060021BFD1 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCBA1BD0D9060021BFD1 /* CustomSegue.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCC21BD0D9060021BFD1 /* CustomSegueUnwind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCBB1BD0D9060021BFD1 /* CustomSegueUnwind.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCC31BD0D9060021BFD1 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCBC1BD0D9060021BFD1 /* DismissAnimator.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCC41BD0D9060021BFD1 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCBD1BD0D9060021BFD1 /* PopAnimator.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCC51BD0D9060021BFD1 /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCBE1BD0D9060021BFD1 /* PresentAnimator.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCC61BD0D9060021BFD1 /* PushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCBF1BD0D9060021BFD1 /* PushAnimator.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCC71BD0D9060021BFD1 /* TabAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCC01BD0D9060021BFD1 /* TabAnimator.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCCA1BD0D9250021BFD1 /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCC81BD0D9250021BFD1 /* NavigationDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		77B7FCCB1BD0D9250021BFD1 /* TabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCC91BD0D9250021BFD1 /* TabBarControllerDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 		E6E800129D8E2ECE175AA50C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F55E9DE8B9B8A0608A353E2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -67,25 +67,25 @@
 		770FE75A1BA275F900CBB2E2 /* VCTransitionAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCTransitionAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		770FE75E1BA275F900CBB2E2 /* VCTransitionAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTransitionAnimationUITests.swift; sourceTree = "<group>"; };
 		770FE7601BA275F900CBB2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		770FE76E1BA2767D00CBB2E2 /* TabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabbarController.swift; path = ../TabbarController.swift; sourceTree = "<group>"; };
-		770FE7701BA2776B00CBB2E2 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = ../NavigationController.swift; sourceTree = "<group>"; };
-		770FE7721BA2778B00CBB2E2 /* ViewController0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController0.swift; path = ../ViewController0.swift; sourceTree = "<group>"; };
-		770FE7741BA2779500CBB2E2 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController1.swift; path = ../ViewController1.swift; sourceTree = "<group>"; };
-		770FE7781BA277CF00CBB2E2 /* PresentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentViewController.swift; path = ../PresentViewController.swift; sourceTree = "<group>"; };
-		770FE77A1BA277D800CBB2E2 /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushViewController.swift; path = ../PushViewController.swift; sourceTree = "<group>"; };
-		772884081BA959C9007FC986 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../ViewController2.swift; sourceTree = "<group>"; };
-		7728840A1BA95B48007FC986 /* CustomSegueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSegueViewController.swift; path = ../CustomSegueViewController.swift; sourceTree = "<group>"; };
-		7728840C1BA95BE0007FC986 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSegue.swift; path = ../CustomSegue.swift; sourceTree = "<group>"; };
-		7728840E1BA95C37007FC986 /* CustomSegueUnwind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSegueUnwind.swift; path = ../CustomSegueUnwind.swift; sourceTree = "<group>"; };
-		773F722B1BA7CADC00BCD5F1 /* TabBarControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarControllerDelegate.swift; path = ../TabBarControllerDelegate.swift; sourceTree = "<group>"; };
 		7749C41B1BC61BCD0012B9E1 /* PresentDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentDelegate.swift; sourceTree = "<group>"; };
-		775832881BA6650B0016E3E0 /* TabAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabAnimator.swift; path = ../TabAnimator.swift; sourceTree = "<group>"; };
-		7758328C1BA6A1160016E3E0 /* NavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationDelegate.swift; path = ../NavigationDelegate.swift; sourceTree = "<group>"; };
 		775BEF541BA42B6000BBB129 /* VCTransitionAnimation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VCTransitionAnimation-Bridging-Header.h"; sourceTree = "<group>"; };
-		77FC9FF81BA2BE3100CC266F /* PopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopAnimator.swift; path = ../PopAnimator.swift; sourceTree = "<group>"; };
-		77FC9FFA1BA2BE4300CC266F /* PresentAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresentAnimator.swift; path = ../PresentAnimator.swift; sourceTree = "<group>"; };
-		77FC9FFC1BA2BE5400CC266F /* DismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DismissAnimator.swift; path = ../DismissAnimator.swift; sourceTree = "<group>"; };
-		77FC9FFE1BA2C19B00CC266F /* PushAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushAnimator.swift; path = ../PushAnimator.swift; sourceTree = "<group>"; };
+		77B7FCAA1BD0D8A50021BFD1 /* ViewController0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController0.swift; sourceTree = "<group>"; };
+		77B7FCAC1BD0D8BB0021BFD1 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		77B7FCAE1BD0D8C60021BFD1 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		77B7FCB01BD0D8D10021BFD1 /* CustomSegueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegueViewController.swift; sourceTree = "<group>"; };
+		77B7FCB11BD0D8D10021BFD1 /* PresentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		77B7FCB21BD0D8D10021BFD1 /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
+		77B7FCB61BD0D8EC0021BFD1 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		77B7FCB71BD0D8EC0021BFD1 /* TabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		77B7FCBA1BD0D9060021BFD1 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		77B7FCBB1BD0D9060021BFD1 /* CustomSegueUnwind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegueUnwind.swift; sourceTree = "<group>"; };
+		77B7FCBC1BD0D9060021BFD1 /* DismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+		77B7FCBD1BD0D9060021BFD1 /* PopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		77B7FCBE1BD0D9060021BFD1 /* PresentAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentAnimator.swift; sourceTree = "<group>"; };
+		77B7FCBF1BD0D9060021BFD1 /* PushAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushAnimator.swift; sourceTree = "<group>"; };
+		77B7FCC01BD0D9060021BFD1 /* TabAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabAnimator.swift; sourceTree = "<group>"; };
+		77B7FCC81BD0D9250021BFD1 /* NavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDelegate.swift; sourceTree = "<group>"; };
+		77B7FCC91BD0D9250021BFD1 /* TabBarControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,12 +192,12 @@
 		7749C4171BC61AB30012B9E1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				770FE7721BA2778B00CBB2E2 /* ViewController0.swift */,
-				770FE7741BA2779500CBB2E2 /* ViewController1.swift */,
-				772884081BA959C9007FC986 /* ViewController2.swift */,
-				770FE7781BA277CF00CBB2E2 /* PresentViewController.swift */,
-				770FE77A1BA277D800CBB2E2 /* PushViewController.swift */,
-				7728840A1BA95B48007FC986 /* CustomSegueViewController.swift */,
+				77B7FCB01BD0D8D10021BFD1 /* CustomSegueViewController.swift */,
+				77B7FCB11BD0D8D10021BFD1 /* PresentViewController.swift */,
+				77B7FCB21BD0D8D10021BFD1 /* PushViewController.swift */,
+				77B7FCAE1BD0D8C60021BFD1 /* ViewController2.swift */,
+				77B7FCAC1BD0D8BB0021BFD1 /* ViewController1.swift */,
+				77B7FCAA1BD0D8A50021BFD1 /* ViewController0.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -205,8 +205,8 @@
 		7749C4181BC61B0D0012B9E1 /* MainViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				770FE76E1BA2767D00CBB2E2 /* TabbarController.swift */,
-				770FE7701BA2776B00CBB2E2 /* NavigationController.swift */,
+				77B7FCB61BD0D8EC0021BFD1 /* NavigationController.swift */,
+				77B7FCB71BD0D8EC0021BFD1 /* TabbarController.swift */,
 			);
 			path = MainViewControllers;
 			sourceTree = "<group>";
@@ -214,13 +214,13 @@
 		7749C4191BC61B300012B9E1 /* TransitionAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				7728840C1BA95BE0007FC986 /* CustomSegue.swift */,
-				7728840E1BA95C37007FC986 /* CustomSegueUnwind.swift */,
-				77FC9FFC1BA2BE5400CC266F /* DismissAnimator.swift */,
-				77FC9FFE1BA2C19B00CC266F /* PushAnimator.swift */,
-				77FC9FF81BA2BE3100CC266F /* PopAnimator.swift */,
-				77FC9FFA1BA2BE4300CC266F /* PresentAnimator.swift */,
-				775832881BA6650B0016E3E0 /* TabAnimator.swift */,
+				77B7FCBA1BD0D9060021BFD1 /* CustomSegue.swift */,
+				77B7FCBB1BD0D9060021BFD1 /* CustomSegueUnwind.swift */,
+				77B7FCBC1BD0D9060021BFD1 /* DismissAnimator.swift */,
+				77B7FCBD1BD0D9060021BFD1 /* PopAnimator.swift */,
+				77B7FCBE1BD0D9060021BFD1 /* PresentAnimator.swift */,
+				77B7FCBF1BD0D9060021BFD1 /* PushAnimator.swift */,
+				77B7FCC01BD0D9060021BFD1 /* TabAnimator.swift */,
 			);
 			path = TransitionAnimator;
 			sourceTree = "<group>";
@@ -228,8 +228,8 @@
 		7749C41A1BC61B730012B9E1 /* TransitionDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				7758328C1BA6A1160016E3E0 /* NavigationDelegate.swift */,
-				773F722B1BA7CADC00BCD5F1 /* TabBarControllerDelegate.swift */,
+				77B7FCC81BD0D9250021BFD1 /* NavigationDelegate.swift */,
+				77B7FCC91BD0D9250021BFD1 /* TabBarControllerDelegate.swift */,
 				7749C41B1BC61BCD0012B9E1 /* PresentDelegate.swift */,
 			);
 			path = TransitionDelegate;
@@ -426,24 +426,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				7749C41C1BC61BCD0012B9E1 /* PresentDelegate.swift in Sources */,
-				770FE7751BA2779500CBB2E2 /* ViewController1.swift in Sources */,
-				772884091BA959C9007FC986 /* ViewController2.swift in Sources */,
-				770FE7791BA277CF00CBB2E2 /* PresentViewController.swift in Sources */,
-				770FE77B1BA277D800CBB2E2 /* PushViewController.swift in Sources */,
-				77FC9FF91BA2BE3100CC266F /* PopAnimator.swift in Sources */,
-				77FC9FFF1BA2C19B00CC266F /* PushAnimator.swift in Sources */,
-				7728840F1BA95C37007FC986 /* CustomSegueUnwind.swift in Sources */,
-				770FE7731BA2778B00CBB2E2 /* ViewController0.swift in Sources */,
-				7728840B1BA95B48007FC986 /* CustomSegueViewController.swift in Sources */,
-				775832891BA6650B0016E3E0 /* TabAnimator.swift in Sources */,
-				773F722C1BA7CADC00BCD5F1 /* TabBarControllerDelegate.swift in Sources */,
-				7758328D1BA6A1160016E3E0 /* NavigationDelegate.swift in Sources */,
-				77FC9FFD1BA2BE5400CC266F /* DismissAnimator.swift in Sources */,
-				770FE7711BA2776B00CBB2E2 /* NavigationController.swift in Sources */,
-				770FE76F1BA2767D00CBB2E2 /* TabbarController.swift in Sources */,
+				77B7FCB51BD0D8D10021BFD1 /* PushViewController.swift in Sources */,
+				77B7FCAF1BD0D8C60021BFD1 /* ViewController2.swift in Sources */,
+				77B7FCAB1BD0D8A50021BFD1 /* ViewController0.swift in Sources */,
+				77B7FCCA1BD0D9250021BFD1 /* NavigationDelegate.swift in Sources */,
+				77B7FCAD1BD0D8BB0021BFD1 /* ViewController1.swift in Sources */,
+				77B7FCB31BD0D8D10021BFD1 /* CustomSegueViewController.swift in Sources */,
+				77B7FCC71BD0D9060021BFD1 /* TabAnimator.swift in Sources */,
+				77B7FCC41BD0D9060021BFD1 /* PopAnimator.swift in Sources */,
+				77B7FCC11BD0D9060021BFD1 /* CustomSegue.swift in Sources */,
+				77B7FCC51BD0D9060021BFD1 /* PresentAnimator.swift in Sources */,
+				77B7FCB81BD0D8EC0021BFD1 /* NavigationController.swift in Sources */,
+				77B7FCB91BD0D8EC0021BFD1 /* TabbarController.swift in Sources */,
+				77B7FCB41BD0D8D10021BFD1 /* PresentViewController.swift in Sources */,
 				770FE73F1BA275F900CBB2E2 /* AppDelegate.swift in Sources */,
-				7728840D1BA95BE0007FC986 /* CustomSegue.swift in Sources */,
-				77FC9FFB1BA2BE4300CC266F /* PresentAnimator.swift in Sources */,
+				77B7FCCB1BD0D9250021BFD1 /* TabBarControllerDelegate.swift in Sources */,
+				77B7FCC31BD0D9060021BFD1 /* DismissAnimator.swift in Sources */,
+				77B7FCC61BD0D9060021BFD1 /* PushAnimator.swift in Sources */,
+				77B7FCC21BD0D9060021BFD1 /* CustomSegueUnwind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gY6-Mq-tsv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gY6-Mq-tsv">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
@@ -12,6 +12,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="h9b-5e-pNd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                         <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
@@ -38,6 +39,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Etj-Im-DNh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="RPc-lO-ZFE" kind="relationship" relationship="rootViewController" id="QuT-wt-nC2"/>
@@ -61,6 +63,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWP-DO-e1c">
                                 <rect key="frame" x="220" y="285" width="160" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="HUH-Hu-Vob"/>
                                     <constraint firstAttribute="width" constant="160" id="uoH-7v-ErR"/>
@@ -71,6 +74,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.40707236842105265" green="0.80263157894736847" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="xWP-DO-e1c" firstAttribute="centerX" secondItem="F4e-o2-qqL" secondAttribute="centerX" id="NWN-aK-MMd"/>
@@ -97,6 +101,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bcq-2P-mg9">
                                 <rect key="frame" x="220" y="560" width="160" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="1rp-ss-lQu"/>
                                     <constraint firstAttribute="height" constant="30" id="aTJ-16-dGZ"/>
@@ -107,6 +112,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Bcq-2P-mg9" firstAttribute="centerX" secondItem="v8Y-nI-EeU" secondAttribute="centerX" id="Y5c-fu-77w"/>
@@ -127,6 +133,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DZI-Rl-FKi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="EX8-fS-gUh" kind="relationship" relationship="rootViewController" id="1Yq-Jh-2AX"/>
@@ -150,6 +157,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmT-ig-aCI">
                                 <rect key="frame" x="220" y="285" width="160" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="GJF-R7-pf7"/>
                                     <constraint firstAttribute="width" constant="160" id="loC-SM-LhG"/>
@@ -160,6 +168,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="1" green="0.92105263159999995" blue="0.9609375" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="dmT-ig-aCI" firstAttribute="centerX" secondItem="tiN-IF-vu4" secondAttribute="centerX" id="6BJ-HI-Vht"/>
@@ -186,6 +195,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgr-0p-ZDO">
                                 <rect key="frame" x="220" y="285" width="160" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="BG7-tN-MpR"/>
                                     <constraint firstAttribute="width" constant="160" id="xr6-4M-5eK"/>
@@ -196,6 +206,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.70355361927631588" green="0.70632941502105262" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
@@ -234,6 +245,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAl-ow-pSr">
                                 <rect key="frame" x="220" y="285" width="160" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="kwj-ou-YSV"/>
                                     <constraint firstAttribute="height" constant="30" id="llX-ld-Rqq"/>
@@ -244,6 +256,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.53903680098684215" green="0.90131578947368418" blue="0.83141447368421051" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="jAl-ow-pSr" firstAttribute="centerX" secondItem="ben-e2-yvb" secondAttribute="centerX" id="vCD-OU-uuz"/>
@@ -270,6 +283,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMJ-NT-ftZ">
                                 <rect key="frame" x="220" y="285" width="160" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="160" id="2Mj-dB-XVE"/>
                                     <constraint firstAttribute="height" constant="30" id="Fqv-rk-5gY"/>
@@ -281,6 +295,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8s-sf-Ob4">
                                 <rect key="frame" x="220" y="215" width="160" height="30"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="2gJ-54-7h2"/>
                                     <constraint firstAttribute="width" constant="160" id="Bmr-K5-nPb"/>
@@ -291,6 +306,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="1" green="0.80049856085526316" blue="0.55759148848684215" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="eMJ-NT-ftZ" firstAttribute="centerY" secondItem="gxb-J7-D5Y" secondAttribute="centerY" id="537-yd-hf8"/>
@@ -313,6 +329,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MNq-vb-m7G">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="XUo-Lc-dFi" kind="relationship" relationship="rootViewController" id="nvp-y2-2G4"/>
@@ -333,6 +350,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="tfx-sT-e7O"/>
-        <segue reference="uvz-MQ-uaF"/>
+        <segue reference="1Yq-Jh-2AX"/>
     </inferredMetricsTieBreakers>
 </document>
