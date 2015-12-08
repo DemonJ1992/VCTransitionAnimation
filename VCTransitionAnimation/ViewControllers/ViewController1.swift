@@ -17,6 +17,14 @@ class ViewController1: UIViewController {
         self.navigationDelegate = NavigationDelegate(navigationController: self.navigationController!)
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
