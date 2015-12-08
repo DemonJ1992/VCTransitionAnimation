@@ -46,7 +46,6 @@ class NavigationDelegate: NSObject, UINavigationControllerDelegate {
         if fraction < 0 {
             fraction = 0
         }
-        print("fraction is \(fraction)")
         switch gesture.state {
         case UIGestureRecognizerState.Began:
             if (location.x < CGRectGetMidX(view.bounds) && self.navigationController.viewControllers.count > 1 && self.pushAnimationFinished) {
