@@ -34,7 +34,7 @@ extension UIViewController {
     
     func myViewWillAppear(animated: Bool) {
         self.myViewWillAppear(animated)
-        
-        print("view will appear: \(self))")
+        // self.classForKeyArchiver  -> Optional(VCTransitionAnimation.ViewController0)
+        print("view will appear: \(self.classForCoder)")
     }
 }

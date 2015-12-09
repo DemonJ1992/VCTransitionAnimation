@@ -23,6 +23,14 @@ class NavigationController: UINavigationController, UINavigationControllerDelega
         // Dispose of any resources that can be recreated.
     }
     
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        if let style = self.topViewController?.preferredStatusBarStyle() {
+            return style;
+        } else {
+            return UIStatusBarStyle.Default;
+        }
+    }
+    
     /*
     func navigationController(navigationController: UINavigationController, animationControllerForOperation operation: UINavigationControllerOperation, fromViewController fromVC: UIViewController, toViewController toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         if (UINavigationControllerOperation.Push == operation) {

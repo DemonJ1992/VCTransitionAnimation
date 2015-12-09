@@ -15,6 +15,8 @@ class ViewController2: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -26,5 +28,7 @@ class ViewController2: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
+    
+    
 
 }

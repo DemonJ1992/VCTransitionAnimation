@@ -57,6 +57,10 @@ class PushViewController: UIViewController {
         super.viewDidDisappear(animated)
     }
     
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
+    }
+    
 
     @IBAction func popButtonAction(sender: AnyObject) {
         self.navigationController?.popViewControllerAnimated(true)
