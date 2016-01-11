@@ -33,7 +33,6 @@
 		77B7FCCA1BD0D9250021BFD1 /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCC81BD0D9250021BFD1 /* NavigationDelegate.swift */; };
 		77B7FCCB1BD0D9250021BFD1 /* TabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCC91BD0D9250021BFD1 /* TabBarControllerDelegate.swift */; };
 		BB97097A1C3E5CD00074484F /* NSDate+Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9709791C3E5CD00074484F /* NSDate+Help.swift */; };
-		BBCC74F91C42557900419372 /* NSString+RemoveHtml.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC74F81C42557900419372 /* NSString+RemoveHtml.swift */; };
 		E6E800129D8E2ECE175AA50C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F55E9DE8B9B8A0608A353E2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -91,7 +90,6 @@
 		77B7FCC81BD0D9250021BFD1 /* NavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDelegate.swift; sourceTree = "<group>"; };
 		77B7FCC91BD0D9250021BFD1 /* TabBarControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllerDelegate.swift; sourceTree = "<group>"; };
 		BB9709791C3E5CD00074484F /* NSDate+Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Help.swift"; sourceTree = "<group>"; };
-		BBCC74F81C42557900419372 /* NSString+RemoveHtml.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+RemoveHtml.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +123,6 @@
 			children = (
 				21BEDDD81C16BCB600F3C111 /* UIViewController+Tracking.swift */,
 				BB9709791C3E5CD00074484F /* NSDate+Help.swift */,
-				BBCC74F81C42557900419372 /* NSString+RemoveHtml.swift */,
 			);
 			name = Extension;
 			path = Category;
@@ -459,7 +456,6 @@
 				77B7FCB91BD0D8EC0021BFD1 /* TabbarController.swift in Sources */,
 				21BEDDD91C16BCB600F3C111 /* UIViewController+Tracking.swift in Sources */,
 				77B7FCB41BD0D8D10021BFD1 /* PresentViewController.swift in Sources */,
-				BBCC74F91C42557900419372 /* NSString+RemoveHtml.swift in Sources */,
 				770FE73F1BA275F900CBB2E2 /* AppDelegate.swift in Sources */,
 				77B7FCCB1BD0D9250021BFD1 /* TabBarControllerDelegate.swift in Sources */,
 				77B7FCC31BD0D9060021BFD1 /* DismissAnimator.swift in Sources */,

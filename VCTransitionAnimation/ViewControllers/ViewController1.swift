@@ -16,6 +16,14 @@ class ViewController1: UIViewController {
         super.viewDidLoad()
         self.navigationDelegate = NavigationDelegate(navigationController: self.navigationController!)
         // Do any additional setup after loading the view.
+        //let range = hello.rangeOfString("hello")
+        
+        var hello = "hello world"
+        while let range1 = hello.rangeOfString("l") {
+            hello = hello.stringByReplacingCharactersInRange(range1, withString: "")
+        }
+        print("result \(hello)")
+        
     }
     
     override func viewWillDisappear(animated: Bool) {
