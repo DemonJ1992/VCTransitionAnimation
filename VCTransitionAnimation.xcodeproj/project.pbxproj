@@ -33,6 +33,7 @@
 		77B7FCCA1BD0D9250021BFD1 /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCC81BD0D9250021BFD1 /* NavigationDelegate.swift */; };
 		77B7FCCB1BD0D9250021BFD1 /* TabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCC91BD0D9250021BFD1 /* TabBarControllerDelegate.swift */; };
 		BB97097A1C3E5CD00074484F /* NSDate+Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9709791C3E5CD00074484F /* NSDate+Help.swift */; };
+		BBF6EAC31C522F2C0073E37C /* BTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6EAC21C522F2C0073E37C /* BTManager.swift */; };
 		DE5B35C2C11079B8F6EFF282 /* Pods_VCTransitionAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F20B4134726F6ACB45FA201 /* Pods_VCTransitionAnimation.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,7 @@
 		77B7FCC91BD0D9250021BFD1 /* TabBarControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllerDelegate.swift; sourceTree = "<group>"; };
 		83FE53ADB9E6265EE36E8CC5 /* Pods-VCTransitionAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCTransitionAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VCTransitionAnimation/Pods-VCTransitionAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		BB9709791C3E5CD00074484F /* NSDate+Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Help.swift"; sourceTree = "<group>"; };
+		BBF6EAC21C522F2C0073E37C /* BTManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 		770FE73D1BA275F900CBB2E2 /* VCTransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				BBF6EAC11C522EAB0073E37C /* Manager */,
 				BBD956781C46304E003B1EE7 /* Request */,
 				21BEDDD71C16BC7E00F3C111 /* Extension */,
 				7749C41D1BC634CB0012B9E1 /* AnimationView */,
@@ -263,6 +266,14 @@
 			children = (
 			);
 			path = Request;
+			sourceTree = "<group>";
+		};
+		BBF6EAC11C522EAB0073E37C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BBF6EAC21C522F2C0073E37C /* BTManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,6 +466,7 @@
 				BB97097A1C3E5CD00074484F /* NSDate+Help.swift in Sources */,
 				77B7FCCA1BD0D9250021BFD1 /* NavigationDelegate.swift in Sources */,
 				77B7FCAD1BD0D8BB0021BFD1 /* ViewController1.swift in Sources */,
+				BBF6EAC31C522F2C0073E37C /* BTManager.swift in Sources */,
 				77B7FCB31BD0D8D10021BFD1 /* CustomSegueViewController.swift in Sources */,
 				77B7FCC71BD0D9060021BFD1 /* TabAnimator.swift in Sources */,
 				77B7FCC41BD0D9060021BFD1 /* PopAnimator.swift in Sources */,
