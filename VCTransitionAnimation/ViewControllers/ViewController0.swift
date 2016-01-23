@@ -14,7 +14,11 @@ class ViewController0: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        //let string = NSDate.stringFromDate(NSDate())
+        //print("current time \(string)")
+        //let string1 = NSDate.weekDayOfDate(NSDate())
+        //print("current week day \(string1)")
         // Do any additional setup after loading the view.
     }
 

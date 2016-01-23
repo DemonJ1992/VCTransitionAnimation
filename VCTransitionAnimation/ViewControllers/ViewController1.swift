@@ -11,6 +11,7 @@ import UIKit
 class ViewController1: UIViewController {
     
     var navigationDelegate : NavigationDelegate?
+
     /*
     let blockArray = NSMutableArray()
     
@@ -22,14 +23,33 @@ class ViewController1: UIViewController {
         blockArray.addObject(block)
     }
     */
-
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationDelegate = NavigationDelegate(navigationController: self.navigationController!)
         // Do any additional setup after loading the view.
+        //let range = hello.rangeOfString("hello")
+        
+        var hello = "hello world"
+        while let range1 = hello.rangeOfString("l") {
+            hello = hello.stringByReplacingCharactersInRange(range1, withString: "")
+        }
+        print("result \(hello)")
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.addKeyboardNotification()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
     }
     
     override func viewWillDisappear(animated: Bool) {
+        self.removeKeyboardNotification()
         super.viewWillDisappear(animated)
     }
     
@@ -51,11 +71,11 @@ class ViewController1: UIViewController {
         }
     }
     
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
+    override func keyboardWillAppear(notification: NSNotification) {
+        print("keyboardWillAppear")
     }
-    
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
+
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.textField.resignFirstResponder()
     }
 }

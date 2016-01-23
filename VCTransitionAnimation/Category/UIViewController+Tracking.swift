@@ -37,4 +37,26 @@ extension UIViewController {
         // self.classForKeyArchiver  -> Optional(VCTransitionAnimation.ViewController0)
         print("view will appear: \(self.classForCoder)")
     }
+    
+    //MARK:- 键盘抬起、消失逻辑
+    func addKeyboardNotification() {
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector.init("keyboardWillAppear:"), name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector.init("keyboardWillDisappear:"), name: UIKeyboardWillHideNotification, object: nil)
+    }
+    
+    func removeKeyboardNotification() {
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: UIKeyboardWillShowNotification, object: nil)
+    }
+    
+    func keyboardWillAppear(notification: NSNotification) {
+        print("please override this func: \(__FUNCTION__)")
+    }
+    
+    func keyboardWillDisappear(notification: NSNotification) {
+        print("please override this func: \(__FUNCTION__)")
+    }
+    
+    
+    
 }

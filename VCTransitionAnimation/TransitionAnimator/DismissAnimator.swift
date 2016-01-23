@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import pop
 
 class DismissAnimator: NSObject, UIViewControllerAnimatedTransitioning {
     func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {

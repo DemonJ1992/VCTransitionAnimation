@@ -32,7 +32,9 @@
 		77B7FCC71BD0D9060021BFD1 /* TabAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCC01BD0D9060021BFD1 /* TabAnimator.swift */; };
 		77B7FCCA1BD0D9250021BFD1 /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCC81BD0D9250021BFD1 /* NavigationDelegate.swift */; };
 		77B7FCCB1BD0D9250021BFD1 /* TabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B7FCC91BD0D9250021BFD1 /* TabBarControllerDelegate.swift */; };
-		E6E800129D8E2ECE175AA50C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F55E9DE8B9B8A0608A353E2 /* libPods.a */; };
+		BB97097A1C3E5CD00074484F /* NSDate+Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9709791C3E5CD00074484F /* NSDate+Help.swift */; };
+		BBF6EAC31C522F2C0073E37C /* BTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF6EAC21C522F2C0073E37C /* BTManager.swift */; };
+		DE5B35C2C11079B8F6EFF282 /* Pods_VCTransitionAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F20B4134726F6ACB45FA201 /* Pods_VCTransitionAnimation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F55E9DE8B9B8A0608A353E2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BEDDD81C16BCB600F3C111 /* UIViewController+Tracking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Tracking.swift"; sourceTree = "<group>"; };
-		589624A8F21D5FEC1449BEEE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		76577F5C29CA089A36B6FB81 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4C11088192A52594FAB2F657 /* Pods-VCTransitionAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCTransitionAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-VCTransitionAnimation/Pods-VCTransitionAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		5F20B4134726F6ACB45FA201 /* Pods_VCTransitionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VCTransitionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		770FE73B1BA275F900CBB2E2 /* VCTransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCTransitionAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		770FE73E1BA275F900CBB2E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		770FE7431BA275F900CBB2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,6 +89,9 @@
 		77B7FCC01BD0D9060021BFD1 /* TabAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabAnimator.swift; sourceTree = "<group>"; };
 		77B7FCC81BD0D9250021BFD1 /* NavigationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDelegate.swift; sourceTree = "<group>"; };
 		77B7FCC91BD0D9250021BFD1 /* TabBarControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllerDelegate.swift; sourceTree = "<group>"; };
+		83FE53ADB9E6265EE36E8CC5 /* Pods-VCTransitionAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCTransitionAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VCTransitionAnimation/Pods-VCTransitionAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		BB9709791C3E5CD00074484F /* NSDate+Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Help.swift"; sourceTree = "<group>"; };
+		BBF6EAC21C522F2C0073E37C /* BTManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6E800129D8E2ECE175AA50C /* libPods.a in Frameworks */,
+				DE5B35C2C11079B8F6EFF282 /* Pods_VCTransitionAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,24 +124,17 @@
 			isa = PBXGroup;
 			children = (
 				21BEDDD81C16BCB600F3C111 /* UIViewController+Tracking.swift */,
+				BB9709791C3E5CD00074484F /* NSDate+Help.swift */,
 			);
 			name = Extension;
 			path = Category;
 			sourceTree = "<group>";
 		};
-		430DF2F067B02076B4E3986A /* Frameworks */ = {
+		37B8FE4B7E62B85C99CDF3BE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F55E9DE8B9B8A0608A353E2 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		751A4E82B8C6D9F139945428 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				589624A8F21D5FEC1449BEEE /* Pods.debug.xcconfig */,
-				76577F5C29CA089A36B6FB81 /* Pods.release.xcconfig */,
+				83FE53ADB9E6265EE36E8CC5 /* Pods-VCTransitionAnimation.debug.xcconfig */,
+				4C11088192A52594FAB2F657 /* Pods-VCTransitionAnimation.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -149,8 +146,8 @@
 				770FE7521BA275F900CBB2E2 /* VCTransitionAnimationTests */,
 				770FE75D1BA275F900CBB2E2 /* VCTransitionAnimationUITests */,
 				770FE73C1BA275F900CBB2E2 /* Products */,
-				751A4E82B8C6D9F139945428 /* Pods */,
-				430DF2F067B02076B4E3986A /* Frameworks */,
+				37B8FE4B7E62B85C99CDF3BE /* Pods */,
+				B2774CA48A7D487DBF638BBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +164,8 @@
 		770FE73D1BA275F900CBB2E2 /* VCTransitionAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				BBF6EAC11C522EAB0073E37C /* Manager */,
+				BBD956781C46304E003B1EE7 /* Request */,
 				21BEDDD71C16BC7E00F3C111 /* Extension */,
 				7749C41D1BC634CB0012B9E1 /* AnimationView */,
 				7749C41A1BC61B730012B9E1 /* TransitionDelegate */,
@@ -254,6 +253,29 @@
 			path = AnimationView;
 			sourceTree = "<group>";
 		};
+		B2774CA48A7D487DBF638BBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F20B4134726F6ACB45FA201 /* Pods_VCTransitionAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBD956781C46304E003B1EE7 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		BBF6EAC11C522EAB0073E37C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BBF6EAC21C522F2C0073E37C /* BTManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,12 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 770FE7631BA275F900CBB2E2 /* Build configuration list for PBXNativeTarget "VCTransitionAnimation" */;
 			buildPhases = (
-				86C66840F360A985F9AE57BA /* Check Pods Manifest.lock */,
+				9CB71CA32BFE6EF01D320C7E /* Check Pods Manifest.lock */,
 				770FE7371BA275F900CBB2E2 /* Sources */,
 				770FE7381BA275F900CBB2E2 /* Frameworks */,
 				770FE7391BA275F900CBB2E2 /* Resources */,
-				624F6294D4A77997E86CEEE2 /* Copy Pods Resources */,
-				653C876B901A8B30691D1EDB /* Embed Pods Frameworks */,
+				FC5347089E265C1F5CA09278 /* Embed Pods Frameworks */,
+				2D5A97C26884920A557D6CC3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -385,7 +407,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		624F6294D4A77997E86CEEE2 /* Copy Pods Resources */ = {
+		2D5A97C26884920A557D6CC3 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,25 +419,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCTransitionAnimation/Pods-VCTransitionAnimation-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		653C876B901A8B30691D1EDB /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		86C66840F360A985F9AE57BA /* Check Pods Manifest.lock */ = {
+		9CB71CA32BFE6EF01D320C7E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -430,6 +437,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		FC5347089E265C1F5CA09278 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCTransitionAnimation/Pods-VCTransitionAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -441,8 +463,10 @@
 				77B7FCB51BD0D8D10021BFD1 /* PushViewController.swift in Sources */,
 				77B7FCAF1BD0D8C60021BFD1 /* ViewController2.swift in Sources */,
 				77B7FCAB1BD0D8A50021BFD1 /* ViewController0.swift in Sources */,
+				BB97097A1C3E5CD00074484F /* NSDate+Help.swift in Sources */,
 				77B7FCCA1BD0D9250021BFD1 /* NavigationDelegate.swift in Sources */,
 				77B7FCAD1BD0D8BB0021BFD1 /* ViewController1.swift in Sources */,
+				BBF6EAC31C522F2C0073E37C /* BTManager.swift in Sources */,
 				77B7FCB31BD0D8D10021BFD1 /* CustomSegueViewController.swift in Sources */,
 				77B7FCC71BD0D9060021BFD1 /* TabAnimator.swift in Sources */,
 				77B7FCC41BD0D9060021BFD1 /* PopAnimator.swift in Sources */,
@@ -531,6 +555,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -575,6 +600,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -594,7 +620,7 @@
 		};
 		770FE7641BA275F900CBB2E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 589624A8F21D5FEC1449BEEE /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 83FE53ADB9E6265EE36E8CC5 /* Pods-VCTransitionAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -602,7 +628,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = VCTransitionAnimation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.du.VCTransitionAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -614,7 +640,7 @@
 		};
 		770FE7651BA275F900CBB2E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76577F5C29CA089A36B6FB81 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 4C11088192A52594FAB2F657 /* Pods-VCTransitionAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -622,7 +648,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = VCTransitionAnimation/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.du.VCTransitionAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
