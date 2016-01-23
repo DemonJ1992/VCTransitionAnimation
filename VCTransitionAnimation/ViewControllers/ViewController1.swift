@@ -11,6 +11,17 @@ import UIKit
 class ViewController1: UIViewController {
     
     var navigationDelegate : NavigationDelegate?
+    /*
+    let blockArray = NSMutableArray()
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        let block = { () -> Void in
+            
+        }
+        blockArray.addObject(block)
+    }
+    */
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,9 +58,4 @@ class ViewController1: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
     }
-    
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
-    }
-
 }
